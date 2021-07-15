@@ -35,6 +35,8 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - Grico
+    - random
+    - mtl
 
 tests:
   Grico-test:
